@@ -73,15 +73,15 @@ The design achieved a maximum simulated operational frequency of **1.58 GHz**, m
 
 ### 1. Block Diagram  
 > High-level overview of decoder, SRAM array, and control lines  
-📁 `docs/sram_block_diagram.png`
+<img src="docs/sram_block_diagram.png" alt="Block Diagram" width="600"/>
 
 ### 2. Layout Previews  
 > Snapshots of 6T SRAM cell and tiled 8×8 array  
-📁 `layout/sram_array_layout.png`
+<img src="layout/sram_array_layout.png" alt="SRAM Layout" width="600"/>
 
 ### 3. Simulation Waveforms  
 > Transient analysis for successful write/read cycles  
-📁 `docs/waveform_read_write.png`
+<img src="docs/waveform_read_write.png" alt="Waveform" width="600"/>
 
 ---
 
@@ -96,6 +96,37 @@ The design achieved a maximum simulated operational frequency of **1.58 GHz**, m
 │   └── sram_block_diagram.png
 │   └── waveform_read_write.png
 ├── schematics/              → Cadence schematic screenshots or exports
-├── layout/                  → Layout GDS/GIF files and images
+├── layout/                  → Layout files and images
 ├── simulations/             → Testbenches and Spectre simulation files
-├── netlists/                → Transistor-level SPICE netlists
+
+---
+
+## 📜 Documentation
+
+- 📘 [`Final_Project_SRAM.pdf`](docs/Final_Project_SRAM.pdf):  
+  Full project report including schematics, layout screenshots, test setups, simulation outputs, and final conclusions.
+
+- 📁 **Stimulus Files & Waveform Images:**  
+  Located in the `/simulations/` and `/docs/` directories, covering inverter, decoder, SRAM cell, and array-level operations.
+
+- 📎 **Schematic and Layout Snapshots:**  
+  Available in `/schematics/` and `/layout/` folders, showcasing gate-level components, 6T SRAM cell, and full array layout.
+
+---
+
+## 🔭 Future Work
+
+- ➕ Integrate **sense amplifiers** for faster and more accurate read operations  
+- ➕ Implement a **column decoder** to enable full matrix addressability  
+- ➕ Expand the design to a **16×16 SRAM array** or explore **multi-port memory architectures**  
+- 🔋 Explore **low-power techniques** for energy-efficient SRAM operation, including leakage reduction and dynamic threshold control
+
+---
+
+## 👨‍💻 Authors
+
+- Bshara Habib  
+- Francis Aboud  
+- Maria Nakhleh  
+- Noor Zakour
+
