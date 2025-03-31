@@ -73,15 +73,15 @@ The design achieved a maximum simulated operational frequency of **1.58 GHz**, m
 
 ### 1. Block Diagram  
 > High-level overview of decoder, SRAM array, and control lines  
-<img src="docs/sram_block_diagram.png" alt="Block Diagram" width="600"/>
+<img src="docs/System Block Diagram Scematic.png" alt="Block Diagram" width="600"/>
 
 ### 2. Layout Previews  
 > Snapshots of 6T SRAM cell and tiled 8×8 array  
-<img src="layout/sram_array_layout.png" alt="SRAM Layout" width="600"/>
+<img src="layout/8×8 SRAM Array Layout.png" alt="SRAM Layout" width="600"/>
 
 ### 3. Simulation Waveforms  
 > Transient analysis for successful write/read cycles  
-<img src="docs/waveform_read_write.png" alt="Waveform" width="600"/>
+<img src="docs/Transient Simulations.png" alt="Waveform" width="600"/>
 
 ---
 
