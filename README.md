@@ -77,7 +77,7 @@ The design achieved a maximum simulated operational frequency of **1.58 GHz**, m
 
 ### 2. Layout Previews  
 > Snapshots of 6T SRAM cell and tiled 8×8 array  
-<img src="layout/8×8 SRAM Array Layout.png" alt="SRAM Layout" width="600"/>
+<img src="layout/8×8 SRAM Array Layout1.png" alt="SRAM Layout" width="600"/>
 
 ### 3. Simulation Waveforms  
 > Transient analysis for successful write/read cycles  
