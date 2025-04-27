@@ -127,6 +127,6 @@ The design achieved a maximum simulated operational frequency of **1.58 GHz**, m
 
 - Bshara Habib  
 - Francis Aboud  
-- Maria Nakhleh  
+- Maria Nakhle
 - Noor Zakour
 
